@@ -21,4 +21,5 @@ while True:
         time.sleep(0.05)
         if count >= 50:
             led.set_output(24,0)
+            quit()
 
